@@ -1,0 +1,50 @@
+.homepage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+  padding: 2rem;
+}
+
+.welcome-card {
+  max-width: 600px;
+  width: 100%;
+  padding: 2rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.welcome-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+.welcome-text {
+  font-size: 1.1rem;
+  color: #fff;
+  margin-top: 1rem;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+.role-icon-wrapper {
+  font-size: 3rem;
+  margin-top: 0.5rem;
+}
+
+.role-icon.admin {
+  color: #10b981;
+}
+
+.role-icon.user {
+  color: #16a34a;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}

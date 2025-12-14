@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #10b981;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  backdrop-filter: blur(6px);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+
+button {
+  margin: 2px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #10b981;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #059669;
+}
+
+input, select {
+  margin: 5px 5px 5px 0;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(4px);
+}
+
+form {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: rgba(255,255,255,0.85);
+  border-radius: 6px;
+  backdrop-filter: blur(6px);
+}
